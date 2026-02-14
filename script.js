@@ -171,4 +171,74 @@
 // compines.push('feacbook')
 // compines.splice(5,0.,'feacbook')
 // compines.shift()
-// compines.splice(3,1,'ola')
+
+// compines.splice(3,1,'ola')/ console.log(fullname)
+// console.log(`my name\t is\t  ${fullname}`);
+// console.log(`my name is  ${fullname}`);
+// prompt('enter your name')
+// console.log('hello \n world') 
+// let str ='              mustafa hassan        '; 
+// console.log(str.length) 
+// console.log(str.toUpperCase()) 
+// console.log(str.toLowerCase()) 
+// console.log(str.trim()) 
+// let str =' mustafa wahid'; 
+// console.log(str)
+// let joinstr =str + ' is a good boy';
+// console.log(joinstr)
+// console.log(str.replace('mustafa','usman','ahmed'))
+// console.log(str.charAt(10))
+// let fullname = prompt('Enter your name with out space')
+// let joinstr =fullname +'@gmail.com'+ '\n' + fullname.length;
+// console.log(joinstr)
+// let age =15;
+// if(age >= 18){
+//      console.log('you are eligible for vote')
+// }
+// if(age < 18){
+//     console.log('you are not eligible for vote')
+// }
+// let mood ='happy';
+// if(mood === 'happy'){
+//     console.log('i am in good mood')
+// }
+// let date = 2-12-2026;
+// if(date === 3-12-2026){
+//   console.log('date is correct');
+// } else {
+//   console.log('date is not correct');
+// }
+// let mood = 'white';
+// let color = '';
+// if(mood === 'black'){
+//   color = 'dark';
+//   } else if(mood === 'white'){
+//     color = 'light';
+//   } else if(mood === 'red'){
+//     color = 'danger';
+//   } else {
+//     color = 'unknown';
+//   }
+//   console.log(color)
+// let input = prompt('Enter your name');
+// let output = 'Hello ' + input;
+// alert(output)
+// for(let i = 1 ; i <=10 ; i++){
+//     // console.log('i =',i);
+    // console.log(`10 x  ${i} =`,10*i);
+// }
+// let age = prompt('Enter your age');
+// console.log('age =',age);
+// for(let i =0  ; i <= 100 ; i++){
+//     if(i%2 === 0){
+//         console.log('even number =',i);
+//     } else {
+//         console.log('odd number =',i);
+//     }
+//   }
+// let num1 = prompt('Enter first number');
+// let num2 = prompt('Enter second number');
+// console.log(`sum =${num1 + num2}`)
+// console.log(`subtrict = ${num1 - num2}`)
+// console.log(`multiply = ${num1 * num2}`)
+// console.log(`divde = ${num1 / num2}`)
