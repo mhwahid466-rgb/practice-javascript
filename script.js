@@ -147,4 +147,51 @@ countVowels("mustafa hassan");
 let nums = [1, 2, 3, 4, 5];
 nums.forEach((num) => {
   console.log(num * num);
+});let arr =['mustafa','hassan','usman','ahmed']
+    arr.forEach((val,idx ,arr) =>{
+        console.log(val .toUpperCase() ,idx ,arr);
 });
+alert('Student Result');
+
+let name = prompt('Enter your Name');
+let marks = [];
+
+for (let i = 1; i <= 5; i++) {
+    let m = Number(prompt(`Enter marks for subject ${i}`));
+    marks.push(m);
+}
+
+let total = 0;
+for (let val of marks) {
+    total += val;
+}
+
+let average = total / marks.length;
+
+let grade;
+
+if (average >= 80) {
+    grade = '🏆 1st Position';
+} else if (average >= 70) {
+    grade = '🥈 2nd Position';
+} else if (average >= 60) {
+    grade = '🥉 3rd Position';
+} else if (average >= 50) {
+    grade = '🎖️ Pass';
+} else {
+    grade = 'Fail';
+}
+
+console.log(`Name: ${name}
+Marks: ${marks}
+Total: ${total}
+Average: ${average.toFixed(2)}
+Grade: ${grade}`);
+
+alert(`Result:
+Name: ${name}
+Average: ${average.toFixed(2)}
+Grade: ${grade}
+Marks: ${marks}
+Total: ${total}`);
+
